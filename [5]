@@ -1,0 +1,46 @@
+[5]
+
+Propuesta del Proyecto: TramiTrack
+
+TramiTrack es una plataforma web diseñada para modernizar y agilizar los procesos administrativos de la Facultad de Ciencias de la UCV, ofreciendo a los estudiantes una forma sencilla, centralizada y transparente de gestionar sus solicitudes académicas donde se busca optimizar la experiencia de los estudiantes en la solicitud, seguimiento y entrega de documentos administrativos, reduciendo tiempos de espera y automatizando pasos manuales.
+
+Funcionalidades principales
+
+-Solicitud en línea de documentos como constancias de estudio, inscripción o culminación.
+-Sistema de seguimiento del estado del trámite en tiempo real (recepción, validación, firma, entrega).
+-Carga de comprobantes de pago digital y validación automática.
+-Notificaciones por correo electrónico o dentro del sistema sobre avances o requerimientos.
+-Panel de administración para el personal encargado de los procesos.
+
+c) Políticas de desarrollo y control de versiones
+
+Para el desarrollo del proyecto TramiTrack, adoptaremos políticas sólidas de control de versiones y buenas prácticas de desarrollo colaborativo, en concordancia con los lineamientos propuestos en el documento de laboratorio de ATI-II
+
+1. Manejo de ramas en Git
+
+Además, se van a crear ramas específicas según la necesidad como por ejemplo:
+
+feature/ para nuevas funcionalidades.
+bugfix/ para corregir errores.
+release/ para preparar versiones finales.
+
+Convención de nombres de ramas:
+[usuario]/[tipo]/[descripcion-breve]
+Ejemplo: Dani/feature/solicitud-documentos.
+
+2. Uso de herramientas
+
+IntelliJ IDEA será el entorno de desarrollo principal, con soporte para Git y GitHub.
+
+3. Archivo .gitignore
+
+Se incluirán reglas para omitir archivos temporales, logs y configuraciones del entorno, asegurando que solo el código relevante forme parte del repositorio.
+
+4. Archivo README.md
+
+Cada fase del proyecto debe de contar con un README estructurado con:
+
+-Descripción general.
+-Instrucciones de instalación y uso.
+-Guía de pruebas.
+
