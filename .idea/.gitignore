@@ -3,3 +3,11 @@
 /workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+build/
+out/
+
+# Directorio de Gradle local (.gradle)
+.gradle/
+
+# Archivos JAR y WAR generados
+*.jar
